@@ -4,7 +4,7 @@ By Jason Zou and Ignacio Lopez Amartino — FINM 25000, Summer 2026
 
 End-to-end systematic trading system for FINM 250 Project Alpaca. It trades trend-filtered mean reversion on 5 liquid cyclical stocks (MOS, LEN, LYB, DVN, HAL); BTC/USD and ETH/USD are supported but off by default because exchange fees ate the crypto sleeve's edge. All orders go to Alpaca in paper trading mode only. No real money is ever at risk.
 
-The strategy started life losing -7.6% per half-year and now makes +1.8% net per year with a -1.4% max drawdown. The full story of that turnaround - what was broken, how it was diagnosed, and which fixes survived out-of-sample validation - is in [CHANGELOG.md](CHANGELOG.md).
+The strategy started life losing -7.6% per half-year and now makes +1.8% net per year with a -1.4% max drawdown. The full story of that turnaround - what was broken, how it was diagnosed, and which fixes survived out-of-sample validation - is in [CHANGELOG.md](CHANGELOG.md)
 
 ## Overview
 
