@@ -1,0 +1,32 @@
+tickers:
+  stocks:
+  - MOS
+  - LEN
+  - LYB
+  - DVN
+  - HAL
+  # crypto removed from the default book: over Jul 2025 - Jul 2026 the BTC/ETH
+  # sleeve made +$221 gross but paid ~$1,860 in fees at Alpaca's ~25bps taker
+  # rate, dragging the full-year return from +1.84% to +0.18%. Re-add
+  # BTC/USD / ETH/USD here (or in the dashboard) to trade them again.
+  crypto: []
+strategy:
+  lookback: 20
+  entry_z: 2.5
+  exit_z: 0.5
+  vol_lookback: 20
+  vol_target: 0.03
+  trend_lookback: 100   # long SMA regime filter; fade only with the trend. 0 disables
+  bail_z: 3.0           # exit early if z blows out past this against us. null disables
+  allow_shorts: true    # shorts stay on: gated by the trend filter they add ~1pp/yr
+risk:
+  max_position_pct: 0.15
+  max_gross_pct: 1.0
+  stop_loss_pct: 0.05
+execution:
+  poll_seconds: 60
+  min_order_notional: 200
+  cost_bps: 5         # backtest-only per-fill cost (half-spread + fees); paper fills are real
+  crypto_cost_bps: 25 # Alpaca's crypto taker fee is ~25bps - 10x a liquid stock's spread
+backtest:
+  months: 6

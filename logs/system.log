@@ -1,0 +1,21 @@
+2026-07-12 01:15:42,919 | INFO | data | data update: 13072 bars for 7 symbols, 182d window
+2026-07-12 01:15:43,003 | INFO | backtest | backtest: 4367 hourly rows, 7 symbols, 2026-01-10 17:00:00+00:00 to 2026-07-11 15:00:00+00:00
+2026-07-12 01:15:44,696 | INFO | backtest | backtest done: pnl $-7,590, 327 trades, hit rate 57.80%, max dd -8.72%
+2026-07-12 01:23:07,415 | INFO | data | data update: 13072 bars for 7 symbols, 182d window
+2026-07-12 01:23:07,509 | INFO | backtest | backtest: 4367 hourly rows, 7 symbols, 2026-01-10 18:00:00+00:00 to 2026-07-11 16:00:00+00:00
+2026-07-12 01:23:09,232 | INFO | backtest | backtest done: pnl $-1,553, 97 trades, hit rate 57.73%, max dd -3.34%
+2026-07-12 01:24:32,294 | INFO | data | data update: 13072 bars for 7 symbols, 182d window
+2026-07-12 01:25:24,331 | INFO | data | data update: 13072 bars for 7 symbols, 182d window
+2026-07-12 01:25:24,421 | INFO | backtest | backtest: 4367 hourly rows, 7 symbols, 2026-01-10 18:00:00+00:00 to 2026-07-11 16:00:00+00:00
+2026-07-12 01:25:26,134 | INFO | backtest | backtest done: pnl $-1,553, 97 trades, hit rate 57.73%, max dd -3.34%
+2026-07-12 01:27:00,954 | INFO | data | data update: 13072 bars for 7 symbols, 182d window
+2026-07-12 01:27:01,053 | INFO | backtest | backtest: 4367 hourly rows, 7 symbols, 2026-01-10 18:00:00+00:00 to 2026-07-11 16:00:00+00:00
+2026-07-12 01:27:02,801 | INFO | backtest | backtest done: pnl $1,812, 45 trades, hit rate 62.22%, max dd -1.11%
+2026-07-12 01:35:09,523 | INFO | data | data update: 26270 bars for 7 symbols, 365d window
+2026-07-12 01:36:00,131 | INFO | data | data update: 13072 bars for 7 symbols, 182d window
+2026-07-12 01:43:54,143 | INFO | data | data update: 13072 bars for 7 symbols, 182d window
+2026-07-12 01:43:54,235 | INFO | backtest | backtest: 4367 hourly rows, 7 symbols, 2026-01-10 18:00:00+00:00 to 2026-07-11 16:00:00+00:00
+2026-07-12 01:43:56,055 | INFO | backtest | backtest done: pnl $1,424, 45 trades, hit rate 62.22%, max dd -1.15%
+2026-07-12 01:54:50,330 | INFO | data | data update: 4340 bars for 5 symbols, 182d window
+2026-07-12 01:54:50,390 | INFO | backtest | backtest: 868 hourly rows, 5 symbols, 2026-01-12 14:00:00+00:00 to 2026-07-10 19:00:00+00:00
+2026-07-12 01:54:50,884 | INFO | backtest | backtest done: pnl $1,490, 23 trades, hit rate 73.91%, max dd -1.37%

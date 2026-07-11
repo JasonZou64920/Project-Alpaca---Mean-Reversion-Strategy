@@ -1,0 +1,11 @@
+,0
+start,2026-01-12 15:00:00+00:00
+end,2026-07-10 19:00:00+00:00
+cumulative_pnl,1490.1240605999774
+total_return,0.014901240605999844
+max_drawdown,-0.013726840772506521
+trade_count,23
+hit_rate,0.7391304347826086
+open_positions_at_end,1
+orders_blocked_by_risk,0
+transaction_costs_paid,206.8447394
